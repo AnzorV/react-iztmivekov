@@ -11,7 +11,7 @@ function App() {
         <div className="container">
           <div className="content__top">
           <Categories onClickItem={(name) => console.log(name)} items={[ 'Мясные', 'Вегетрианская', 'Гриль', 'Острые', 'Закрытые' ]} />
-          <SortPopup />
+          <SortPopup items={['популярности', 'цены', 'алфавиту']} />
           </div>
           <h2 className="content__title">Все пиццы</h2>
           <div className="content__items">
